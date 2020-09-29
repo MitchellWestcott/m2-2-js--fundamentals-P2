@@ -11,6 +11,9 @@
 // -----------------------------------------------------------------
 function arrOFNames(string) {
   // complete the function
+
+  return string.split(', ');
+
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
@@ -25,6 +28,10 @@ console.log(
   )
 );
 // Create more test examples.
+
+console.log(arrOfNames("Jerry Garcia, Bob Weir, Phil Lesh, Bill Kreutzmann, Mickey Hart, Ron Pigpen McKernan, Tom Constanten, Keith Godchaux, Brent Mydland"))
+
+console.log(arrOfNames("A name, another name, another another name, another another another name, another another another another name"))
 
 // This is needed for automated testing (more on that later)
 module.exports = arrOFNames;

@@ -17,6 +17,8 @@
 // -----------------------------------------------------------------
 function removeMiddleName(string) {
   // complete the function
+  let newNames = string.split(' ');
+  return newNames.slice(1, -1);
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

@@ -12,6 +12,24 @@
 // -----------------------------------------------------------------
 function findNumbers(num1, num2) {
   // num1 and num2 are Numbers
+
+//make a variable that is the numbers between num1 and num2, use math.cube to cycle through
+
+let newArray = [];
+
+  for (let i = num1; i < num2; i++) {
+    newArray.push(i);
+    // let mathTime = newArray.toString().split("");
+
+  return Math.pow(newArray, newArray);
+  }
+
+  //let mathTime = newArray.toString().split("");
+  // //return  console.log(typeof newArray);
+  
+  // return Math.pow(mathTime, mathTime);
+
+}
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

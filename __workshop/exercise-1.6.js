@@ -11,7 +11,13 @@
 // -----------------------------------------------------------------
 function removeStringFromArray(array, string) {
   // complete the function
+  let newString = string.replace('');
+  return array;
 }
+
+//let newNames = string.split(' ');
+//return newNames.slice(1, -1);
+
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
 //
@@ -22,6 +28,8 @@ function removeStringFromArray(array, string) {
 console.log(removeStringFromArray(["I", "bacon", "you", "she"], "bacon"));
 
 // Create more test examples.
+
+console.log(removeStringFromArray(["word", "another word", "more words", "alright now"), "bye"]);
 
 // This is needed for automated testing (more on that later)
 module.exports = removeStringFromArray;

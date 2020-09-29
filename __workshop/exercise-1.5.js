@@ -12,8 +12,16 @@
 //
 // Edit only the code between the lines (below)
 // -----------------------------------------------------------------
+
+//take the array, use it to search the string for examples, return it
+
 function decodeMessage(string, notCode) {
   // complete the function
+  let newString = string;
+  for (i = 0; i < notCode.length; i++) {
+    newString = newString.replace(notCode[i], ' ');
+  }
+  return newString;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

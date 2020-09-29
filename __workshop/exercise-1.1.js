@@ -9,7 +9,9 @@
 // -----------------------------------------------------------------
 function countNames(fullName) {
   // complete the function
-  return fullName.split(" ");
+  const nameArray = fullName.split(' ');
+
+  return nameArray.length;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)
@@ -20,6 +22,12 @@ function countNames(fullName) {
 // Call the function to test your code.
 console.log(countNames("Morty Antoine Smith"));
 // Create more test examples:
+
+console.log(countNames("John Johnny Jonathan Jerry"));
+
+console.log(countNames("Jerome John Garcia"));
+
+console.log(countNames("Gerry Garcia"));
 
 //
 // This is needed for automated testing (more on that later)
