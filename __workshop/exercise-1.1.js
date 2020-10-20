@@ -9,9 +9,7 @@
 // -----------------------------------------------------------------
 function countNames(fullName) {
   // complete the function
-  const nameArray = fullName.split(' ');
-
-  return nameArray.length;
+  return fullName.split(" ").length;
 }
 // -----------------------------------------------------------------
 // Edit only the code between the lines (above)

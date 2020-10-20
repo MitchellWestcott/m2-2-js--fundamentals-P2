@@ -19,7 +19,7 @@ function decodeMessage(string, notCode) {
   // complete the function
   let newString = string;
   for (i = 0; i < notCode.length; i++) {
-    newString = newString.replace(notCode[i], ' ');
+    newString = newString.replace(notCode[i], "");
   }
   return newString;
 }

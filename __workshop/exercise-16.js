@@ -18,9 +18,15 @@ function findNumbers(num1, num2) {
 let newArray = [];
 
   for (let i = num1; i < num2; i++) {
-    newArray.push(i);
+    let newArray = i.toString().split("");
     // let mathTime = newArray.toString().split("");
+    let theNums = 0;
 
+    
+
+    newArray.forEach(function (theNums) {
+
+    })
   return Math.pow(newArray, newArray);
   }
 

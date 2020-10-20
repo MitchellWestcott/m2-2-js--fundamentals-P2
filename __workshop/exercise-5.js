@@ -7,7 +7,7 @@
 // -----------------------------------------------------------------
 function itemIsPresent(array, item) {
   // code here
-  return myArray.includes(item);
+  return array.includes(item);
 }
 
 // -----------------------------------------------------------------
